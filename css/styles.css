@@ -1,12 +1,11 @@
-.social-links .link {
-  color: teal;
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
-  color: orange;
-}
-
-.social-links .link:active {
-  color: red;
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
 }
